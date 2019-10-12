@@ -1,0 +1,111 @@
+.side-nav .logo-sn {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.side-nav .logo-sn img {
+    height: 38px;
+}
+
+.accordion .card {
+    margin-bottom: 1.2rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.accordion .card .card-body {
+    border-top: 1px solid #eee;
+}
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+@media (min-width: 851px) and (max-width: 1440px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 1000px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 900px;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 1000px;
+    }
+}
+
+@media (max-width: 450px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 1000px;
+    }
+}
+
+.intro-2 {
+    background: url("../img/flat.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #89BE50 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #89BE50 !important;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #89BE50 !important;
+    }
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+h6 {
+    line-height: 1.7;
+}
+
+.form-control:focus {
+    -webkit-box-shadow: 0 1px 0 0 #89BE50 !important;
+    box-shadow: 0 1px 0 0 #89BE50 !important;
+    border-bottom: 1px solid #89BE50 !important;
+}
+
+label.active,
+.sign-up {
+    color: #89BE50 !important;
+}
+
+bootstrap-select .bs-ok-default::after {
+    width: 0.3em;
+    height: 0.6em;
+    border-width: 0 0.1em 0.1em 0;
+    transform: rotate(45deg) translateY(0.5rem);
+}

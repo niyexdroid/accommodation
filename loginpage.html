@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <title>Login Page</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet" />
+
+    <!--Personalized Stylesheet-->
+    <link href="css/login.css" rel="stylesheet" />
+
+    <style>
+        html,
+        body,
+        header,
+        .jarallax {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body class="architect">
+    <!--Main Navigation-->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <strong>PROJECT-HOSTEL</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Team</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <div class="md-form my-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+
+        <!-- Navbar -->
+
+        <!--Intro Section-->
+        <section class="view intro-2">
+            <div class="mask rgba-light-green-light">
+                <div class="container h-100 d-flex justify-content-center align-items-center">
+                    <!-- Material form register -->
+                    <div class="card">
+
+                        <h5 class="card-header light-green white-text text-center py-3">
+                            <strong>Sign In</strong>
+                        </h5>
+                        <div class="card testimonial-card">
+
+                            <!--Background color-->
+                            <div class="card-up">
+                            </div>
+
+                            <!--Avatar-->
+                            <div class="avatar mx-auto"><img src="img/avatar.png" class="rounded-circle img-responsive" alt="Example photo">
+                            </div>
+                            <!--Card content-->
+                            <div class="card-body px-lg-5 pt-0">
+
+                                <!-- Form -->
+                                <form class="text-center" style="color: #757575;" action="#">
+
+                                    <div class="md-form">
+                                        <input type="text" id="usertName" class="form-control">
+                                        <label for="userName">Username</label>
+                                    </div>
+
+                                    <div class="md-form">
+                                        <input type="password" id="FormPassword" class="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock">
+                                        <label for="FormPassword">Password</label>
+                                    </div>
+
+                                    <!-- Newsletter -->
+                                    <div class="form-check ">
+                                        <input type="checkbox" class="form-check-input" id="materialRegisterFormNewsletter">
+                                        <label class="form-check-label" for="materialRegisterFormNewsletter">Subscribe
+                                            to
+                                            our newsletter</label>
+                                    </div>
+
+                                    <!-- Sign up button -->
+                                    <button class="btn btn-light-green btn-rounded btn-block my-4 waves-effect z-depth-0 " type="submit ">Sign In</button>
+
+                                    <!-- Social register -->
+
+                                    <p>or</p>
+                                    <span> You can click here to  </span><a class="sign-up" href="signup.html"> Sign Up</a>
+
+                                    <hr>
+
+                                    <!-- Terms of service -->
+                                    <p>sign In with:</p>
+
+                                    <a type="button " class="btn-floating btn-fb btn-sm ">
+                                        <i class="fab fa-facebook-f "></i>
+                                    </a>
+                                    <a type="button " class="btn-floating btn-tw btn-sm ">
+                                        <i class="fab fa-twitter "></i>
+                                    </a>
+                                    <a type="button " class="btn-floating btn-li btn-sm ">
+                                        <i class="fab fa-linkedin-in "></i>
+                                    </a>
+                                    <a type="button " class="btn-floating btn-git btn-sm ">
+                                        <i class="fab fa-github "></i>
+                                    </a>
+                                </form>
+                                <!-- Form -->
+
+                            </div>
+
+                        </div>
+                        <!-- Material form register -->
+                    </div>
+                </div>
+        </section>
+        <!--Intro Section-->
+    </header>
+    <!--Main Navigation-->
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript " src="js/jquery-3.3.1.min.js "></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript " src="js/popper.min.js "></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript " src="js/bootstrap.min.js "></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript " src="js/mdb.min.js "></script>
+
+    <script>
+        //Animation init
+        new WOW().init();
+
+        // initialize scrollspy
+        $("body ").scrollspy({
+            target: ".dotted-scrollspy "
+        });
+
+        // initialize lightbox
+        $(function() {
+            $("#mdb-lightbox-ui ").load("../mdb-addons/mdb-lightbox-ui.html ");
+        });
+
+        $(".navbar-collapse a ").click(function() {
+            $(".navbar-collapse ").collapse("hide ");
+        });
+    </script>
+</body>
+
+</html>
